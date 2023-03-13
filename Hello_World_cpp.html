@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== MORE ICONS ====================-->
+    <script src="https://kit.fontawesome.com/5d6fa8302c.js" crossorigin="anonymous"></script>
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Saurabh Sharma</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="index.html#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="SeeMore.html#services" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Work
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+        <!-- +++++++++++++++++++ SECTION PROGRAMMING HEADING +++++++++++++++++++ -->
+        <!--==================== PROGRAMMING HEADING ====================-->
+        <section class="Section__Programming__Heading" id="Section-Programming-Heading">
+            <div class="Programming__Heading" id="Programming-Heading">
+                <h1>Learn <span>C++</span> Programming Languages</h1>
+                <p>Here you can learn all famous Programming Languages.</p>
+            </div>
+        </section>
+
+        <!-- +++++++++++++++++++ SECTION PROGRAMMING LANGUAGE BUTTON +++++++++++++++++++ -->
+        <!--==================== PROGRAMMING LANGUAGE BUTTON ====================-->
+        <section class="Section__Programming_Language_Side_Button" id="Section-Programming-Language-Side-Button">
+            <div class="Programming_Language_Button_Frame active_button" id="Programming-Language-Button-Frame">
+                <div class="Programming__Language_Button_Name" id="Programming-Language-Button-Name">
+                    <a href="Python.html"><span>Python</span></a>
+                </div>
+
+                <div class="Programming__Language_Button_Name" id="Programming-Language-Button-Name">
+                    <a href="C.html"><span>C</span></a>
+                </div>
+
+                <div class="Programming__Language_Button_Name active" id="Programming-Language-Button-Name">
+                    <span>C++</span>
+                    <i class="fa-solid fa-location-arrow active-point"></i>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- +++++++++++++++++++ SECTION PROGRAMMING LANGUAGE HEADING +++++++++++++++++++ -->
+        <!--==================== PROGRAMMING LANGUAGE HEADING ====================-->
+        <section class="Section__Programming__Language__Button__Heading" id="Section-Programming-Language-Button-Heading">
+            <div class="Programming__Language__Heading__Button__Left" id="Programming-Language-Heading-Button-Left">
+                <a href="#Basic-Program"><h2>1. Basic Programs</h2></a>                
+                <a href="#Conditional-Program"><h2>2. Conditional Programs</h2></a>                
+                <a href="#Loops-Program"><h2>3. Loops Programs</h2></a>                
+                <a href="#"><h2>4. Matrix Programs</h2></a>                
+                <a href="#"><h2>5. String Programs</h2></a>                
+                <a href="#"><h2>6. Dictionary Programs</h2></a>                
+            </div>
+
+            <div class="Programming__Language__Heading__Button__Right" id="Programming-Language-Heading-Button-Right">
+                <a href="#"><h2>7. Tupple Programs</h2></a>                
+                <a href="#"><h2>8. Searching and Sorting Programs</h2></a>                
+                <a href="#"><h2>9. Pattern Programs</h2></a>                
+                <a href="#"><h2>10. Date-Time Programs</h2></a>                
+                <a href="#"><h2>11. Regex Programs</h2></a>                
+                <a href="#"><h2>12. File Handling Programs</h2></a> 
+                <div id="Hello_World"></div>               
+            </div>
+        </section>
+
+        
+
+        <!-- ((((((((((((((((((((((((((((((((((( CODE SPACE ))))))))))))))))))))))))))))))))))) -->
+        <div class="Hello-World-Program">Hello World Program in C++</div>
+        <section class="Code-Space">
+            
+            <pre>
+                <code class="language-pascal">
+<div class="cpp-coment">// Program to print Hello Wrorld in C++</div>
+<span class="Import-Header">#include</span> <span class="String">&lt;iostream&gt;</span>
+<span class="Import-Header">using</span><span class="DataType"> namespace</span> std<span class="Semicolon">;</span>
+
+<span class="DataType">int</span><span class="Symbol"> main</span><span class="Brases">()</span>
+<span class="Brases">{</span>
+    <span class="Variable">cout</span> <span class="Symbol"><<</span> <span class="String">"Hello World !!!"</span> <span class="Symbol"><<</span> endl<span class="Semicolon">;</span>
+<span class="Brases">}</span>
+                </code>
+            </pre>
+            <!-- <div class="All-Code Line-1">#include &lt;iostream&gt;</div>
+            <div class="All-Code Line-2">using namespace std;</div> -->
+        </section>
+        
+
+        <!-- +++++++++++++++++++ SECTION PROGRAMMING LANGUAGE HEADING ABOUT +++++++++++++++++++ -->
+        <!--==================== PROGRAMMING LANGUAGE HEADING ABOUT ====================-->
+        <section class="Programming__Language__Heading__Topic" id="Programming-Language-Heading-Topic">
+            <div class="Programming__Language__Heading__Topic__About" id="Programming-Language-Heading-Topic-About">
+
+                <!-- ----------------------------- BASIC PROGRAMS ------------------------------------ -->
+                <div class="Heading__Topic" id="Heading-Topic">
+                    <a href="#GitHub"><span class="Access-GitHub" >Access Github</span></a>
+                    <h1 id="Basic-Program">Basic Programs</h1>
+
+                    <!-- ------------------------------ SUB HEADING BASIC PROGRAMS ---------------- -->
+                    <a href="#Hello_World"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                </div>
+
+                <!-- ----------------------------- CONDITIONAL PROGRAMS ------------------------------------ -->
+                <div class="Heading__Topic" id="Heading-Topic">
+                    <a href="#GitHub"><span class="Access-GitHub-Conditional" >Access Github</span></a>
+                    <h1 id="Conditional-Program">Conditional Programs</h1>
+
+                    <!-- ------------------------------ SUB HEADING CONDITIONAL PROGRAMS ---------------- -->
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                </div>
+
+                <!-- ----------------------------- LOOP PROGRAMS ------------------------------------ -->
+                <div class="Heading__Topic" id="Heading-Topic">
+                    <a href="#GitHub"><span class="Access-GitHub" >Access Github</span></a>
+                    <h1 id="Loops-Program">Loops Programs</h1>
+
+                    <!-- ------------------------------ SUB HEADING LOOP PROGRAMS ---------------- -->
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                    <a href="#"><h3>Python Programs to Print Hello World</h3></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Saurabh</h1>
+                    <h1 class="footer__subtitle">Data Scientist</h1>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/saurabh7310/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/saurabh7310" target="_blank" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
+
+                    <a href="https://saurabh7310.medium.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-medium-m"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; codescoot. All right reserved</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
